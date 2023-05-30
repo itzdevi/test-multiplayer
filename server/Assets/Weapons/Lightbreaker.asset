@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5121edec8a85d2240b82b9434dfa27fd, type: 3}
+  m_Name: Lightbreaker
+  m_EditorClassIdentifier: 
+  title: Lightbreaker
+  prefab: {fileID: 6181739864764618034, guid: 95b4a8b8f8e8aad42ae5d039f968b2bb, type: 3}
+  fireMode: 0
+  bullet: 1
+  magazineSize: 24
+  delayBetweenShots: 0.21
+  damageDropoff: 0.13
+  bulletsPerShot: 1
+  damage: 42
+  headshotDamageMultiplier: 4
+  spreadLimit: {x: 0.01, y: 0.01}

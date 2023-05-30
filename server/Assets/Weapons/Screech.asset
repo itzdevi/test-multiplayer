@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5121edec8a85d2240b82b9434dfa27fd, type: 3}
+  m_Name: Screech
+  m_EditorClassIdentifier: 
+  title: Screech
+  prefab: {fileID: -5351956179485452264, guid: c4b33fd20c070b64ab5ba13b5b981d99, type: 3}
+  fireMode: 0
+  bullet: 0
+  magazineSize: 15
+  delayBetweenShots: 0.14
+  damageDropoff: 0.7
+  bulletsPerShot: 1
+  damage: 12
+  headshotDamageMultiplier: 2
+  spreadLimit: {x: 0.07, y: 0.07}
