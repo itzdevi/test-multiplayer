@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour {
         }
     }
 
+    [SerializeField] TMP_InputField hostInputField;
     [SerializeField] TMP_InputField usernameInputField;
     [SerializeField] TMP_Dropdown weaponSelectionDropdown;
 
@@ -22,7 +23,7 @@ public class UIManager : MonoBehaviour {
     }
 
     public void Connect() {
-        NetworkManager.Singleton.Connect();
+        NetworkManager.Singleton.Connect(hostInputField.text);
         Message msg = Message.Create(MessageSendMode.Reliable, (ushort)ClientToServer.connect);
         msg.AddString(usernameInputField.text);
         msg.AddInt(weaponSelectionDropdown.value);

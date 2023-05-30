@@ -866,5 +866,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/User/Desktop/multiplayer-shooter-game/server/Build/Ring to
-    Task Server.exe
+  playerPath: C:/Users/User/Desktop/test-multiplayer/server/Build/Windows x64/Ring
+    to Task Server.exe

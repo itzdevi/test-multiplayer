@@ -669,7 +669,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: c054cefea34477838dbc90f679a3eca6
+      Hash: ffc59ffe457579b8a7e0f4e9bb479c46
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -1373,5 +1373,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/Lobby.unity
-  playerPath: C:/Users/User/Desktop/multiplayer-shooter-game/client/Build/Ring to
-    Task Client.exe
+  playerPath: C:/Users/User/Desktop/test-multiplayer/client/Build/Windows x64/Ring
+    to Task Client.exe

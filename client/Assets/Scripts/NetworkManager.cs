@@ -51,7 +51,7 @@ public class NetworkManager : MonoBehaviour {
         Client.Disconnect();
     }
 
-    public void Connect() {
+    public void Connect(string host) {
         Client.Connect($"{host}:{port}");
     }
 
